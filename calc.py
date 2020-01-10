@@ -1,8 +1,9 @@
 
 # ---------- Calculator --------
 
+print('Welcome, this is a simple calculator.')
+
 while True:
-    print('Welcome, this is a simple calculator.')
     print("Enter + , - , * , / or ** for calculating.")
     print("Press e for exit.")
     users_input = input(">> ")
@@ -34,8 +35,14 @@ while True:
         a = float(input('first number >>  ')) 
         b = float(input('second number >>  '))
         c = a**b
-
+    else:
+        print("please enter one of this signs: + , - , * , / , **")
+        print()
+        print("now continue.....")
+        continue
+    print()
     print(f'The answer is >> {c}')
+    print()
 
 print("Thanks for using our calculator :)")
 
