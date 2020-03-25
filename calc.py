@@ -1,6 +1,7 @@
 
 # ---------- Calculator --------
 
+
 print('Welcome, this is a simple calculator.')
 
 while True:
@@ -11,7 +12,7 @@ while True:
     if users_input == "e":
         break
     elif users_input == "+":
-        print("Please enter two numbers for addition:")
+        print("Please enter two numbers for subtraction:")
         a = float(input('first number >>  ')) 
         b = float(input('second number >>  '))
         c = a+b
